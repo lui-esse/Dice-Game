@@ -1,0 +1,54 @@
+body {
+  background-color: #3c9d9b;
+  color: #23374d;
+  text-align: center;
+  font-family: 'Alfa Slab One', cursive;
+  }
+
+.dice {
+  display: inline-block;
+}
+
+h1 {
+  margin: 25px;
+  text-shadow: 4px 0 #170a19;
+  font-size: 8rem;
+  color: #9C060C;
+}
+
+h1::before {
+  content: url("icons/icon1.png");
+}
+
+h1::after {
+  content: url("icons/icon2.png");
+}
+
+a  {
+  text-decoration: none;
+  color: #23374d;
+}
+
+h3 {
+  font-size: 3rem;
+}
+
+p {
+  font-size: 2em;
+  color: white;
+  margin-top: 100px;
+}
+
+img {
+  width: 80%;
+}
+
+.footer {
+  margin-top: 8%;
+}
+
+.score {
+  margin-top: 50px;
+  font-size: 28px;
+  color: white;
+}
