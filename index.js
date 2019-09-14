@@ -1,11 +1,11 @@
-// Create a random number
+// Random number
 var rollPlayer1 = Math.random() * 6;
 rollPlayer1 = Math.floor(rollPlayer1) + 1;
-// Select a random image
+// Random image
 var randomImage = "dice" + rollPlayer1 + ".png";
-// Select image source
+// Image source
 var randomImageSource = "images/" + randomImage;
-// Change attributes w Dom
+
 document.querySelectorAll("img")[0].setAttribute("src", randomImageSource);
 
 // 2nd dice
